@@ -1,0 +1,24 @@
+<div class="container">
+    <h4>Form Telur</h4>
+    <hr>
+    <form action="<%= targetRoute %> " method="post">
+        Jenis
+        <input type="text" name="jenis_telur" 
+        value="<%= jenis_telur %> "
+        class="form-control mb-2" required>
+
+        Stok 
+        <input type="text" name="stok" 
+        value="<%= stok %> "
+        class="form-control mb-2" required>
+
+        Harga 
+        <input type="text" name="harga" 
+        value="<%= harga %> "
+        class="form-control mb-2" required>
+
+        <button type="submit" class="btn" style="background-color: #393E46; color: white;">
+            Simpan
+        </button>
+    </form>
+</div>
